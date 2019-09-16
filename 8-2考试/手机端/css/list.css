@@ -1,0 +1,86 @@
+html,body{
+    height: 100%;
+}
+#box{
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+}
+header{
+    height: 1.2rem;
+    background-color: #D43C33;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .icon-voice{
+    font-size: .666667rem;
+    color: white;
+}
+header .icon-shengyin1{
+    font-size: .666667rem;
+    color: white;
+}
+header h1{
+    font-size: .426667rem;
+    color: white;
+}
+
+
+main{
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+}
+main .list{
+    height: 5.333333rem;
+}
+main .list-1{
+    margin-left: 1.826667rem;
+    height: 1.466667rem;
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-bottom: .013333rem solid #828580;;
+}
+main .list-1 .icon-shezhi{
+    color: #D43C33;
+    position: absolute;
+    font-size: .666667rem;
+    top: 0.366667rem;
+    left: -1.263333rem;
+}
+main .list-1 .icon-laba{
+    font-size: .666667rem;
+    margin-left: 5.6rem;
+    color: #D43C33;
+}
+main .list-1 span{
+    font-size: .453333rem;
+}
+
+
+
+/* footer */
+footer{
+    background-color: #191a18;
+    opacity: .8;
+    height: 1.333333rem;
+    display: flex;
+}
+footer figure{
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(192, 187, 187);
+}
+footer figure:hover{
+    color: white;
+}
+footer figure i{
+    font-size: .606667rem !important;
+    
+}

@@ -1,0 +1,121 @@
+html,body{
+    height: 100%;
+}
+#box{
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+}
+header{
+    height: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+header h1{
+    font-size: .453333rem;
+}
+header .icon-wode{
+    width: .666667rem;
+    height: .666667rem;
+    line-height:.666667rem ;
+    text-align: center;
+    border-radius: 50%;
+    border: .013333rem solid blue;
+    color: blue;
+    position: absolute;
+    right: .366667rem;
+}
+header span{
+    position: absolute;
+    font-size: .266667rem;
+    width: .586667rem;
+    height: .426667rem;
+    color: white;
+    background-color: #FF0000;
+    border-radius: 40%;
+    right: .066667rem;
+    top: .04rem;
+    text-align: center;
+}
+
+main{
+    flex: 1;
+
+}
+main .blank{
+    background-color: #E1E1E1;
+    height: .266667rem;
+    box-shadow: 0 .013333rem .08rem -0.026667rem black inset;
+}
+main .mt{
+    padding-left: .506667rem;
+    display: flex;
+    height: 4.84rem;
+    flex-flow: column;
+}
+.mt .zhanghu {
+    flex: 1;
+    display: flex;
+}
+.mt .zhanghu i{
+    align-self: center;
+    font-size: .64rem !important;
+    color: #7ACECA;
+}
+.mt .zh-block{
+    padding-left: .6rem;
+}
+.mt .zh-block h2{
+    font-size: .4rem;
+    line-height: 1rem;
+}
+.mt .zhanghu span{
+    align-self: center;
+    margin-left: 2.133333rem;
+    font-size: .533333rem;
+    color: #aaa;
+}
+#mt1 .zhanghu:nth-of-type(1){
+    border-bottom: .013333rem solid #aaa;
+}
+
+main .blank2{
+    background-color: #E1E1E1;
+    height: .266667rem;
+}
+#mt2 .zhanghu:nth-of-type(2){
+    border-bottom: .013333rem solid #aaa;
+    
+}
+main #mt3{
+    padding-left: .506667rem;
+    display: flex;
+    height: 1.61rem;
+    flex-flow: column;
+}
+
+
+
+footer{
+    height: 1.333333rem;
+    border-top: .013333rem solid #aaa;
+    display: flex;
+}
+footer a{
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    color: #C3C3C3;
+}
+footer a i{
+    font-size: .613333rem !important;
+}
+footer a:hover{
+    color: blue;
+
+}

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{margin: 0;padding: 0;}
+        ul,li{
+            list-style: none;
+        }
+        body{
+            height: 900px;
+            background: url(../images/2.jpg) no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+        .da{
+            background: url(../images/fsw.png) no-repeat;
+            margin: 10px auto;
+            position: absolute;
+            left: 50%;
+            width: 768px;
+            height: 768px;
+            margin-left: -384px;
+            animation:zhuan 15s linear infinite;
+        }
+        li{
+            position: absolute;
+            animation:fanz 15s linear infinite;
+            transform-origin: 50% 40%;
+        }
+        @keyframes fanz{
+            100%{
+                transform: rotate(-360deg);
+            }
+        }
+        @keyframes zhuan {
+            100%{
+                transform: rotate(360deg);
+            }
+        }
+        ul li:nth-child(1){
+            background: url(../images/boy.png) no-repeat;
+            width: 130px;
+            height: 170px;
+            top: 100px;
+            left: 55px;
+        }
+        ul li:nth-child(2){
+            background: url(../images/girl.png) no-repeat;
+            width: 130px;
+            height: 170px;
+            left: 319px;
+        }
+        ul li:nth-child(3){
+            background: url(../images/dog.png) no-repeat;
+            width: 130px;
+            height: 170px;
+            top: 85px;
+            left: 580px;
+        }
+        ul li:nth-child(4){
+            background: url(../images/girls.png) no-repeat;
+            width: 130px;
+            height: 170px;
+            left: 665px;
+            top: 350px;
+        }
+        ul li:nth-child(5){
+            background: url(../images/hairboy.png) no-repeat;
+            height: 170px;
+            width: 130px;
+            top: 590px;
+            left: 540px;
+        }
+        ul li:nth-child(6){
+            background: url(../images/mimi.png) no-repeat;
+            width: 130px;
+            height: 170px;
+            left: 0px;
+            top: 350px;
+        }
+        ul li:nth-child(7){
+            background: url(../images/mudog.png) no-repeat;
+            width: 130px;
+            height: 170px;
+            left: 90px;
+            top: 590px;
+        }
+        ul li:nth-child(8){
+            background: url(../images/shamegirl.png) no-repeat;
+            width: 130px;
+            height: 170px;
+            left: 327px;
+            top: 655px;
+        }
+
+
+
+
+
+        .lun{
+            background: url(../images/fsw.png) no-repeat;
+            width: 768px;
+            height: 768px;
+            margin: 10px auto;
+        }
+        .xingfu{
+            background: url(../images/big-title.png) no-repeat;
+            width: 577px;
+            height: 527px;
+            position: absolute;
+            top: 270px;
+            left: 50%;
+            margin-left: -288px;
+            z-index: 9;
+
+        }
+        .qinzi{
+            background: url(../images/title.png) no-repeat;
+            width: 413px;
+            height: 139px;
+            position: absolute;
+            top: 465px;
+            left: 50%;
+            margin-left: -206px;
+            z-index: 10;
+        }
+        .qj{
+            background: url(../images/bracket.png) no-repeat;
+            width: 358px;
+            height: 529px;
+            position: absolute;
+            top: 371px;
+            left: 50%;
+            margin-left: -183px;
+            z-index: 2;
+
+        }
+        .hj{
+            background: url(../images/bracketsmall.png) no-repeat;
+            width: 247px;
+            height: 490px;
+            position: absolute;
+            top: 384px;
+            left: 50%;
+            margin-left: -123px; 
+            z-index: 3;
+        }
+        .jiantou{
+            background: url(../images/arrow.png) no-repeat;
+            width: 48px;
+            height: 64px;
+            position: absolute;
+            top: 542px;
+            left: 50%;
+            margin-left: -24px; 
+            z-index: 7; 
+        }
+    </style>
+</head>
+<body>
+    <div class="da">
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <div class="xingfu"></div>
+    <div class="qinzi"></div>
+    <div class="qj"></div>
+    <div class="hj"></div>
+    <div class="jiantou"></div>
+</body>
+</html>

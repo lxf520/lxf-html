@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        a {color:green;}
+        a:link {color:orange;}
+        a:hover {color:pink;}
+        a:active  {color:yellow;}
+
+        i{
+            display: block;
+            width: 0;
+            height: 0;
+            border: 50px solid;
+            border-color: transparent transparent transparent blue;
+        }
+        div{margin-top:600px;}
+        :target h3{color:#f00;}
+    </style>
+</head>
+<body>
+
+    <p>将鼠标指针移动到这个链接上：<a href="#">w3school.com. ▶</a></p>
+
+    <i></i>
+
+    <a href="#html">html</a>
+    <a href="#css">css</a>
+    <a href="#js">js</a>
+    <div id="html">
+        <h3>html是什么</h3>
+        <p>html是xxx</p>
+    </div>
+    <div id="css">
+        <h3>css是什么</h3>
+        <p>css是xxx</p>
+    </div>
+    <div id="js">
+        <h3>js是什么</h3>
+        <p>js是xxx</p>
+    </div>
+
+</body>
+</html>

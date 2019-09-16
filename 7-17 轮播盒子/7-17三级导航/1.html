@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <style type="text/css">
+        *{margin:0;padding:0;}
+        ul,li{ list-style: none;}
+        div{
+            width:100%;
+            background-color: black;
+            height: 60px;
+        }
+        a{
+            display:block;
+            text-decoration: none;
+            width:100px;
+            line-height:60px;
+            font-size: 16px;
+            text-align: center;
+            color:white;
+        }
+        .nav1>li{
+            float:left;
+
+        }
+        /*让单词中的字母都为大写*/
+        ul li .english{
+            display:none;
+            text-transform: uppercase;  
+        }
+        
+        ul li:hover .zw{
+            display:none;
+        }
+        ul li:hover .english{
+            display:block;
+        }
+        .nav2{
+            background-color:black ;
+            display:none;
+        }
+        .nav1 li:hover .nav2{
+            display:block;
+        }
+        .nav2>li{
+          position:relative;
+        }
+        .nav3 {
+            display:none;
+            position: absolute;
+            top: 0;
+            left: 100px;
+        }
+        .nav2>li:hover .nav3{
+            color:#666;
+            display:block;
+            background-color: #666;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div>
+        <ul class="nav1">
+            <li >
+                <a class="zw" href="">首页</a>
+                <a class="english" href="">home</a>
+                <ul class="nav2">
+                    <li>
+                        <a href="">二级导航111</a>
+                        <ul class="nav3">
+                            <li><a href="">三级导航</a></li>
+                            <li><a href="">三级导航</a></li>
+                            <li><a href="">三级导航</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">二级导航111</a>
+                        <ul class="nav3">
+                            <li><a href="">三级导航</a></li>
+                            <li><a href="">三级导航</a></li>
+                            <li><a href="">三级导航</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">二级导航111</a></li>
+                    <li><a href="">二级导航111</a></li>
+                </ul>
+            </li> 
+            <li>
+                <a class="zw" href="">首页</a>
+                <a class="english" href="">home</a>
+                <ul class="nav2">
+                    <li><a href="">二级导航111</a></li>
+                    <li><a href="">二级导航111</a></li>
+                    <li><a href="">二级导航111</a></li>
+                    <li><a href="">二级导航111</a></li>
+                </ul>
+            </li> 
+            <li>
+                <a class="zw" href="">首页</a>
+                <a class="english" href="">home</a>
+                <ul class="nav2">
+                    <li><a href="">二级导航111</a></li>
+                    <li><a href="">二级导航111</a></li>
+                    <li><a href="">二级导航111</a></li>
+                    <li><a href="">二级导航111</a></li>
+                </ul>
+            </li> 
+            <li>
+                <a class="zw" href="">首页</a>
+                <a class="english" href="">home</a>
+                <ul class="nav2">
+                    <li><a href="">二级导航111</a></li>
+                    <li><a href="">二级导航111</a></li>
+                    <li><a href="">二级导航111</a></li>
+                    <li><a href="">二级导航111</a></li>
+                </ul>
+            </li> 
+            <li>
+                <a class="zw" href="">首页</a>
+                <a class="english" href="">home</a>
+                <ul class="nav2">
+                    <li><a href="">二级导航111</a></li>
+                    <li><a href="">二级导航111</a></li>
+                    <li><a href="">二级导航111</a></li>
+                    <li><a href="">二级导航111</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

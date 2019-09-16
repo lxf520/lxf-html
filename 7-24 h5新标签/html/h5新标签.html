@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 带输入框的下拉表单 -->
+    <input type="text" list="cn-list">
+    <datalist id="cn-list">
+        <option value="苹果i">苹果</option>
+        <option value="粒子">粒子</option>
+        <option value="橙子">橙子</option>
+    </datalist>
+    <!-- details -->
+    <div>
+        <details open>
+            <summary>蜀道难</summary>
+            <p>亦须系</p>
+            <p>亦须系</p>
+            <p>亦须系</p>
+        </details>
+    </div>
+    <!-- mark -->
+    <p>报告显示，<mark style="background: #0f0">2019</mark>年中国十大拥堵城市分别</p>
+    <!-- progress进度条 -->
+    <progress max="100" value="40"></progress>
+    <!-- meter度量尺 -->
+    <meter max="100" value="60"></meter>
+    <!-- ruby注释 -->
+    <ruby>冬<rt>dong</rt>瓜<rt>瓜</rt></ruby>
+
+    <input type="color">
+
+    <form action="">
+        <input type="email"><input type="submit">
+    </form>
+
+    <input type="range" max="100" value="0" step="10">
+    <input type="date">
+</body>
+
+</html>

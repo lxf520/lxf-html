@@ -1,0 +1,403 @@
+#header{
+    height: 83px;
+    background-color: #fff;
+}
+.header{
+    height: 83px;
+    line-height: 83px;
+}
+.header h1{float: left;}
+.header ul{
+    float: right;
+    height: 26px;
+    overflow: hidden;
+    margin-top: 26px;
+}
+.header li{
+    float: left;            
+    height: 26px;
+
+}
+.header a{
+    transition: all 0.3s;
+    color: #333331;
+    display: block;
+    width: 70px;
+    margin: 0 5px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    font-size: 14px;
+}
+.header span{
+    display: block;
+}
+.header li a:hover {
+    margin-top: -26px;
+}
+
+
+/* banner */
+.banner{
+    height: 480px;
+    background-size: cover;
+    background: url(../images/2\ -\ 5a5d727961540.jpg) no-repeat center center;
+}
+
+/* business */
+#business{
+    height: 755px;
+    background-color: #fff;
+}
+.business{
+    text-align: center;
+}
+.business h2{
+    margin: 42px 0 22px 0;
+}
+.business p{
+    color: #656766;
+    font-size: 18px;
+}
+.box-busi{
+    width: 1140px;
+    margin-top: 70px;
+}
+.box-busi figure{
+    width: 352px;
+    height: 218px;
+    float: left;
+    margin: 0 40px 20px 0;
+    position: relative;
+    overflow: hidden;
+}
+.box-busi figure span{
+    position: absolute;
+    display: block;
+    left: 73px;
+    top: 70px;
+    width: 230px;
+    height: 70px;
+    line-height: 70px;
+    color: white;
+    background-color: #148CCB;
+}
+.box-busi figure:nth-of-type(3),
+.box-busi figure:nth-of-type(6){
+    margin-right: 0;
+}
+.box-busi .text_con{
+    transition: all 0.3s;
+    position: absolute;
+    top: -218px;
+    height: 218px;
+    z-index: 5;
+}
+.box-busi .text_con p:nth-child(1){
+    margin-top: 50px;
+}
+.box-busi .text_con p:nth-child(2){
+    margin-top: 30px;
+    font-size: 14px;
+}
+.box-busi .text_con p{
+    color: white;
+    font-size: 16px;
+}
+.box-busi figure:hover .text_con{
+    top: 0;
+    z-index: 9;
+}
+
+/*-------- client --------*/
+#client{
+    background-color: #EBEFF2;
+    height: 760px;
+}
+.client{
+    height: 760px;
+    text-align: center;
+    overflow: hidden;
+}
+.client h2{
+    margin: 40px 0 20px 0;
+}
+.client p{
+    color: #656766;
+    font-size: 18px;
+}
+.client .box-client{
+    margin-top: 50px;
+    height: 504px;
+}
+.client li{
+    float: left;
+    height: 168px;
+    width: 285px;
+    border: 1px solid #b8bbba;
+    overflow: hidden;
+    transition: all 2s;
+    position: relative;
+}
+.client .box-client span{
+    transition: all 2s;
+    position: absolute;
+    top: 0;left: 0;
+    opacity: 0;
+}
+
+.client .box-client li:hover span{
+    opacity: 1;
+}
+
+/* ------------work------------ */
+#work{
+    height: 683px;
+    background-color: #fff;
+}
+.work{
+    text-align: center;
+    overflow: hidden;
+    height: 683px;
+}
+.work h2{
+    margin: 40px 0 20px 0;
+}
+.work p{
+    color: #656766;
+    font-size: 18px;
+}
+.work .box-work{
+    margin-top: 53px;
+    height: 423px;
+}
+.work li{
+    float: left;
+}
+.work li a{
+    display: block;
+    width: 283px;
+    height: 208px;
+    margin: 1px;
+    position: relative;
+}
+.work a>img{
+    width: 283px;
+    height: 208px;
+}
+
+.work  #yuan{
+    position: absolute;
+    top: 32%;
+    left: 10%;
+    opacity: 0;
+    transition:all 0.4s;
+}
+.work #jing{
+    position: absolute;
+    top: 40%;
+    right: 10%;     
+    opacity: 0;
+    transition:all 0.4s;  
+}
+.work h4{
+    color:white;
+    margin-top: 160px;
+}
+.box-work li:hover #yuan{
+    opacity: 1;
+    transform: translate(80px,0px);
+}
+.box-work li:hover #jing{
+    opacity: 1;
+    transform: translate(-95px,0px);
+}
+.box-work li:hover div{
+    overflow: hidden;
+    background-color: #0093dd;
+    width: 283px;
+    height: 208px;
+    z-index: 5;
+}
+.box-work li:hover>a>img{
+    display: none;
+}
+
+/*------- news -------*/
+#news{
+    height: 800px;
+    background: linear-gradient(#5CA2BC,#ACC7D2);
+}
+.news{
+    text-align: center;
+    overflow: hidden;
+    height: 800px;
+}
+.news h2{
+    margin: 40px 0 20px 0;
+}
+.news p{
+    color: #656766;
+    font-size: 18px;
+}
+.news .box-news{
+    margin-top: 50px;
+    height: 550px;
+}
+.news li{
+    float: left;
+}
+.news figure{
+    width: 550px;
+    height: 166px;
+    margin: 0 20px 10px 0;
+    background-color: #fff;
+    overflow: hidden;
+}
+.news figure:hover{
+    background-color: rgb(214, 238, 253);
+}
+.news figure img{
+    float: left;
+    width: 166px;
+    height: 166px;
+    margin-right: 20px;
+}
+.box-news a{
+    display: block;
+    white-space:nowrap;
+    margin : 26px 0 10px ;
+    text-overflow: ellipsis;
+    width: 300px;
+    overflow: hidden;
+    font-size: 14px;
+    color: black;
+}
+.box-news p{
+    margin-right: 20px;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: left;
+}
+.box-news span{
+    margin-top: 20px;
+    float: left;
+    font-size: 14px;
+    color:#b8bbba;
+}
+.box-news i{
+    margin-top: 20px;
+    margin-right: 20px;
+    float: right;
+    font-size: 14px;
+    color:#b8bbba;
+}
+
+/* aside */
+aside{
+    height: 600px;
+    background-color: #2E2E2E;
+}
+.contact{
+    overflow: hidden;
+    height: 600px;
+}
+.contact h2{
+    text-align: center;
+    margin: 40px 0 20px 0;
+}
+.con-l{
+    position: relative;
+    width: 564px;
+    height: 380px;
+    border-right: 1px solid rgb(151, 149, 149);
+}
+.con-l h3{
+    line-height: 56px;
+    font-size: 22px;
+    color: white;
+}
+.con-l p{
+    line-height: 30px;
+    color: white;
+    font-size: 14px;
+}
+
+.con-l .ewm{
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    height: 88px;
+    width: 190px;
+    background: url(../images/75\ -\ foot_mobileCode.jpg) no-repeat;
+    background-size:86px 86px;
+    padding-left: 100px;
+    padding-top: 10px;
+    color:white;
+}
+
+.con-r{
+    width: 564px;
+    height: 380px;
+    padding-left: 50px;
+}
+.con-r h3{
+    line-height: 56px;
+    font-size: 22px;
+    color: white;
+    margin-bottom: 10px;
+}
+label{
+    line-height: 30px;
+    vertical-align: middle;
+    display: inline-block;
+    color: white;
+    padding-right: 20px;
+    width: 90px;
+}
+.con-r input{
+    height: 30px;
+    width: 270px;
+    background-color: #828282;
+    margin-bottom: 15px;
+}
+.con-r select{
+    height: 30px;
+    width: 270px;
+    background-color: #828282;
+    margin-bottom: 15px;  
+    color:white;
+}
+textarea{
+    resize: none;
+    background-color: #828282;
+}
+input[type="submit"]{
+    width: 135px;
+    height: 36px;
+    border-radius: 5px;
+    color:white;
+    margin: 20px 0 0 90px;
+}
+input[type="reset"]{
+    width: 73px;
+    height: 36px;
+    border-radius: 5px;
+    color:white;
+    margin: 20px 0 0 10px;
+}
+
+/* footer */
+footer{
+    background-color: #191919;
+    height: 37px;
+}
+.footer{
+    text-align: center;
+}
+a{
+    font-size: 12px;
+    padding: 0 5px;
+    line-height: 36px;
+    color: #828282;
+}

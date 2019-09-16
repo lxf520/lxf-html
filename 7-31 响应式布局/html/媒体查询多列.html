@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        html,body{
+            height: 100%;
+        }
+        div{
+            justify-content: space-around;
+            flex-flow: wrap;
+            display: flex;
+        }
+        p{
+            width: 24%;
+            /* width: 300px; */
+            height: 300px;
+            border: 5px dashed purple;
+            flex-shrink: 0;
+
+        }
+        @media screen and (max-width:1500px){
+            div{
+                column-count: 4;
+                background-color: #bca;
+            }
+        }
+        @media screen and (max-width:1292px){
+            div{
+                column-count: 3;
+                }
+            p{
+                width: 32%;
+            }
+        }
+        @media screen and (max-width:992px){
+            div{
+                column-count: 2;
+            }
+            p{
+                width: 47%;
+            }
+        }
+        @media screen and (max-width:768px){
+            div{
+                column-count: 1;
+            }
+            p{
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+    </div>
+</body>
+</html>

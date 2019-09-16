@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <style type="text/css">
+        *{margin:0;padding: 0;}
+        .box{
+            height: 325px;
+            width: 425px;
+            background: #666666;
+            margin: 100px;
+            position: relative;
+        }
+        .box p{
+            line-height: 48px;
+            height: 48px;
+            text-align: center;
+            color:white;
+        }
+        .big-img{
+            border:1px solid white;
+            width: 280px;
+            height: 200px;
+            margin-left: 20px;
+            overflow:hidden;
+        }
+        .big-img img{
+            width: 280px;
+            height: 200px; 
+        }
+        .box-r{
+
+            height: 200px;
+            width: 78px;
+            overflow-y: scroll;
+            position: absolute;
+            top: 50px;
+            right: 20px;
+        }
+        .box-r img{
+            border:1px solid white;
+            width: 58px;
+            height: 40px;
+            margin-bottom: 6px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <p>电子相册</p>
+        <div class="big-img">
+            <img id="img1" src="images/mn1.jpg" height="196" width="280" alt="" />
+            <img id="img2" src="images/mn2.jpg" alt="" />
+            <img id="img3" src="images/mn3.jpg" alt="" />
+            <img id="img4" src="images/mn4.jpg" alt="" />
+            <img id="img5" src="images/mn5.jpg" alt="" />
+            <img id="img6" src="images/mn6.jpg" alt="" />
+            <img id="img7" src="images/mn7.jpg" alt="" />
+            <img id="img8" src="images/mn8.jpg" alt="" />
+        </div>
+
+        <div class="box-r">
+            <a href="#img1"><img src="images/c1.jpg" alt="" /></a>
+            <a href="#img2"><img src="images/c2.jpg" height="39" width="56" alt="" /></a>
+            <a href="#img3"><img src="images/c3.jpg" alt="" /></a>
+            <a href="#img4"><img src="images/c4.jpg" alt="" /></a>
+            <a href="#img5"><img src="images/c5.jpg" alt="" /></a>
+            <a href="#img6"><img src="images/c6.jpg" alt="" /></a>
+            <a href="#img7"><img src="images/c7.jpg" alt="" /></a>
+            <a href="#img8"><img src="images/c8.jpg" alt="" /></a>
+        </div>
+    </div>
+</body>
+</html>

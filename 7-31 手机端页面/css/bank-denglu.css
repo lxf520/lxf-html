@@ -1,0 +1,117 @@
+body,html{
+    height: 100%;
+}
+#box{
+    height: 100%;
+    display: flex;
+    background-color: #E5E5E5;
+    flex-flow: column;
+}
+header a{
+    display: block;
+    color: #3E92E2;
+    font-size: .4rem;
+    height: 1.2rem;
+    margin: .4rem 0 0 .6rem;
+}
+
+
+
+
+main{
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+}
+main .logo{
+    display: flex;
+    height: 4.8rem;
+    justify-content: center;
+    align-items: center;
+}
+.logo .icon-zhaoshang{
+    font-size: .933333rem;
+    color: #B1120D;
+
+}
+.logo img{
+    margin-left: .133333rem;
+    width: 2.606667rem;
+    height: .993333rem;
+}
+.form{
+    height: 4rem;
+    display: flex;
+    position: relative;
+}
+.form input{
+    height: 1.16rem;
+    width: 100%;
+    border: none;
+    border-bottom: .013333rem solid #C3C3C3;
+    font-size: .4rem;
+    padding-left: 1.333333rem;
+    letter-spacing: .05rem;
+}
+.form i{
+    display: inline-block;
+    position: absolute;
+    top: 0.3rem;
+    left: .413333rem;
+    color: #C3C3C3;
+}
+.form input:nth-of-type(2){
+    background: url(../images/suo.png) no-repeat .413333rem center  #fff;
+    background-size: .44rem .44rem;
+}
+.form input:nth-of-type(3){
+    padding-left: 0;
+    margin-top: .533333rem;
+    background-color: #0A5BD9;
+    color: white;
+    width: 90%;
+    margin-left: .533333rem;
+    border-radius: .106667rem;
+}
+
+main .mima{
+    color: #0A5BD9;
+    font-size: .346667rem;
+    margin-top: .533333rem;
+    align-self: flex-end;
+    margin-right: .533333rem;
+}
+main>a>input{
+    margin-top: 3.533333rem;
+    color: #0A5BD9;
+    background-color: white;
+    border: .013333rem solid #0A5BD9;
+    width: 90%;
+    margin-left: .533333rem;
+    border-radius: .106667rem;
+    height: 1.16rem;
+    font-size: .4rem;
+}
+
+
+footer{
+    background-color: #fff;
+    height: 1.333333rem;
+    border-top: .013333rem solid #aaa;
+    display: flex;
+}
+footer a{
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    color: #C3C3C3;
+}
+footer a i{
+    font-size: .613333rem !important;
+}
+footer a:hover{
+    color: blue;
+
+}

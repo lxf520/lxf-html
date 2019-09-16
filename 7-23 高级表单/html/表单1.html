@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 600px;
+            height: 626px;
+        }
+
+        h3 {
+            line-height: 32px;
+        }
+
+        legend {
+            padding: 2px 6px;
+            border: 1px solid black;
+        }
+        label{
+            display: inline-block;
+            text-align: right;
+            width: 150px;
+            line-height: 30px;
+        }
+        .sar{
+            text-align: center;
+            height: 20px;
+        }
+        input{
+            margin-left: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="" method="POST">
+        <fieldset class="box">
+            <h3>已注册用户登录</h3>
+            <fieldset>
+                <legend>用户登录</legend>
+                <label for="a1">用户名</label><input id="a1" type="text"><br>
+                <label for="password">密码</label><input type="password" id="password"><br>
+                <label><input type="checkbox"><span href="">记住我</span> </label>
+                <input type="button" value="登录" style="background: #D0F0FD;padding:2px 12px"> <br>
+                <a href=""> 忘记密码？</a>
+            </fieldset>
+            <h3>未注册创建帐户</h3>
+            <fieldset>
+                <legend>用户注册</legend>
+                <p>您的电子游戏那个不会被公布的</p>
+                <label for="b1"> 用户名</label> <input  id="b1" type="text"> *（最多30个字符）<br>
+                <label for="b2"> 电子邮箱</label> <input id="b2" type="text"> *<br>
+                <label for="b3"> 密码</label> <input id="b3" type="text" style="width: 135px"> *（最多15个字符）<br>
+                <label for="b4"> 重复密码</label> <input id="b4" type="text" style="width: 135px"> *<br>
+                <label for="fuwu">同意服务条款  </label> <input id="fuwu" type="checkbox"><a href="">先看看条款</a>*<br>
+                <div class="sar">
+                <input type="submit" value="提交" style="background: #D0F0FD;padding:2px 12px;border: 1px solid black">
+                <input type="reset" value="重置" style="background: #D0F0FD;padding:2px 12px; border: 1px solid black"><br>
+                </div>
+                <p>*提交时默认你同意服务条款</p>
+
+            </fieldset>
+        </fieldset>
+    </form>
+</body>
+
+</html>

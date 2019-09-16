@@ -1,0 +1,455 @@
+#nav{
+    background-color: white;
+    height: 81px;
+    border-bottom: 1px solid #B0B0B0;
+    box-shadow: 0 4px 4px #B0B0B0;
+}
+.nav-all{
+    height: 80px;
+    width: 1175px;
+    margin: 0 auto;
+}
+.nav-all h1{
+    float: left;
+    margin-top: 22px;
+}
+.nav-all>p{
+    margin: 32px 0 0 5px;
+    color: #707070;
+    float: left;
+    font-size: 12px;
+    line-height: 30px;
+    border-left: 1px solid #707070;
+    padding-left: 8px;
+}
+
+.nav{
+    width: 780px;
+    margin-left: 30px;
+}
+.nav ul li{
+    float: left;
+}
+.nav li a{
+    display:block;
+    height: 80px;
+    background: url("../images/nav.png");
+}
+.nav #a1{width: 90px;}
+.nav #a2{width: 115px;}
+.nav #a3{width: 130px;}
+.nav #a4{width: 110px;}
+.nav #a5{width: 113px;}
+.nav #a6{width: 114px;}
+.nav #a7{width: 107px;}
+ul li:nth-child(2) a{background-position: -90px 0;}
+ul li:nth-child(3) a{background-position: -205px 0;}
+ul li:nth-child(4) a{background-position: -335px 0;}
+ul li:nth-child(5) a{background-position: -445px 0;}
+ul li:nth-child(6) a{background-position: -558px 0;}
+ul li:nth-child(7) a{background-position: -672px 0;}
+
+
+
+
+ul li:hover a{
+    background: url("../images/nav_on.png");
+}
+ul li:nth-of-type(2):hover a{
+    background-position: -90px 0;
+}
+ul li:nth-of-type(3):hover a{
+    background-position: -205px 0;
+}
+ul li:nth-of-type(4):hover a{
+    background-position: -335px 0;
+}
+ul li:nth-of-type(5):hover a{
+    background-position: -445px 0;
+}
+ul li:nth-of-type(6):hover a{
+    background-position: -558px 0;
+}
+ul li:nth-of-type(7):hover a{
+    background-position: -672px 0;
+}
+
+.nav-r a{
+    height: 33px;
+    line-height: 80px;
+}
+.nav-r a:nth-child(1){
+    border-right: 1px solid #DCDCDC;
+    padding-right: 15px;
+}
+.nav-r a:nth-child(2){
+    padding-left: 15px;
+}
+
+/* ------------------banner------------------ */
+#banner{
+    height: 396px;
+}
+.banner{
+    background: url(../images/banner.png) center top no-repeat;
+    height: 356px;
+}
+#banner p{
+    height: 40px;
+    background: url(../images/center.png) center bottom no-repeat;
+ }
+ #banner p a{
+     line-height: 40px;
+     font-size: 12px; 
+     color: black;
+ }
+ #banner p span{
+     /* display: inline-block; */
+     float: left;
+     width: 22px;
+     height: 40px;
+     background: url(../images/notice.png) center center no-repeat;
+ }
+
+ /* ---------------内容--------------- */
+ #content{
+     min-height: 2074px;
+     background-color: #D6DAE2;
+     padding-top: 16px;
+ }
+ .content{
+     min-height: 2074px;
+ }
+ .box-l{
+     width: 780px;
+ }
+ .box-l1{
+     height: 354px;
+    background: #F2F1EF;
+ }
+.box-l1 .box-l1t{
+    height: 20px;
+    padding: 20px;
+}
+.box-l1t span{
+    float: left;
+    width: 23px;
+    height: 23px;
+    background: url(../images/sprite.png) left top;
+}
+.box-l1t h3{
+    padding-left: 10px;
+    font-size: 20px;
+    float: left;
+}
+.box-l1t a{
+    line-height: 20px;
+    vertical-align: bottom;
+    font-size: 8px;
+    float: right;
+    color: #888888;
+}
+.box-l1b .box{
+    width: 227px;
+    height: 274px;
+    background-color: #fff;
+    margin : 15px 10px 0 20px;
+}
+.box-l1b .box img{
+    border-bottom: 3px solid #1FC0EF;
+}
+.introduce {
+    width: 200px;
+    height: 89px;
+    padding: 14px 15px 0 15px;
+}
+.introduce a{
+    color: black;
+    font-size: 14px;
+    line-height: 26px;
+}
+.introduce p{
+    line-height: 20px;
+    font-size: 14px;
+    color: #888888;
+}
+
+
+/* 第二个 */
+ .box-l2{
+     height: 500px;
+     margin-top: 20px;
+    background: #F2F1EF;
+ }
+ .box-l2 .box-l1t{
+    height: 20px;
+    padding: 20px;
+}
+ .box-l2 .box-l1t span{
+    float: left;
+    width: 23px;
+    height: 23px;
+    background: url(../images/sprite.png)  -23px -0px;
+ }
+.box-l2 .box-l2b{
+    width: 743px;
+    height: 128px;
+    background-color: #fff;
+    margin: 20px;
+}
+.box-l2 .boxl2-img{
+    width: 160px;
+    height: 130px;
+    background: url(../images/ganhuo.png) center center no-repeat;
+}
+.box-l2b a{
+    display: block;
+    color: black;
+    font-size: 18px;
+    padding-top: 23px;
+}
+.box-l2 span{
+    display: block;
+    font-size: 8px;
+    color: #888888;
+    line-height: 32px;
+}
+.box-l2 p{
+    font-size: 12px;
+}
+
+
+/* 第三个 */
+ .box-l3{
+    height: 354px;
+    margin-top: 20px;
+   background: #F2F1EF;
+}
+/* 第四个 */
+.box-l4{
+    height: 804px;
+    margin-top: 20px;
+   background: #F2F1EF;
+}
+.box-l4 .box-l1t{
+    height: 20px;
+    padding: 20px;
+}
+.box-l4 .box-l4b{
+    min-height: 100px;
+}
+.box-l4 .box-l4-1{
+    width: 350px;
+    height: 360px;
+    margin: 10px 6px 10px 24px ;
+}
+.box-l4-1 .lt{
+    border-bottom: 2px solid #9DDDEF;
+    width: 316px;
+    height: 24px;
+}
+.box-l4-1 i{
+    width: 25px; height: 24px;
+    background: url(../images/sprite.png) -70px 0  ;
+    float: left;
+}
+.box-l4-1 h4{
+    font-size: 14px;
+    color: #9DDDEF;
+    padding-left: 5px;
+    line-height: 24px;
+    vertical-align: bottom;
+}
+.box-l4-1 #more{
+    float: right;
+    font-size: 12px;
+    color: #888888;
+    line-height: 42px;  
+}
+.box-l4-1 h5{
+    margin-top: 12px;
+    font-size: 12px;
+    line-height: 24px;
+}
+.box-l4-1 p{
+    font-size: 12px;
+    line-height: 18px;
+    color: #888888;
+}
+
+/* 右边的大盒子 */
+ .box-r{
+     min-height: 2073px;
+     width: 266px;
+     background-color: #fff;
+     padding: 20px;
+ }
+ /* .box-rt{
+     width: 226px;
+     height: 21px;
+ } */
+ .box-rt i{
+    float: left;
+    background: url(../images/sprite.png) no-repeat  -46px -0px;
+     width: 24px;
+     height: 23px;
+     margin-right: 10px;
+ }
+.choose{
+    width: 222px;
+    height: 32px;
+}
+.choose a{
+    color: black;
+    float: left;
+    text-align: center;
+    height: 32px;
+    width: 110px;
+    line-height: 32px;
+     border-bottom: 1px solid #888888;
+}
+.box-img img{
+    margin-top: 20px;
+}
+.box-img p{
+    padding-left: 25px;
+    background: url(../images/paihang.png) no-repeat left center;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 15px;
+}
+.box-r .box-middle{
+    height: 400px;
+    margin-top: 30px;
+    border-top: 1px solid #E4E3E2;
+    border-bottom: 1px solid #E4E3E2;
+}
+.box-middle img{
+    margin-top: 11px;
+}
+.box-middle h3{
+    line-height: 50px;
+    font-size: 18px;
+}
+.box-middle p{
+    line-height: 26px;
+    font-size: 12px
+}
+.box-bottom h3{
+    padding-left: 30px;
+    font-size: 18px;
+    line-height: 58px;
+    background: url(../images/phone.png) no-repeat left center;
+}
+.box-bottom p{
+    line-height: 22px;
+    font-size: 14px;
+}
+.box-bottom img{
+    margin: 20px 0 0 12px;
+}
+
+/* 二维码 */
+.erweima{
+    position: absolute;
+    right: 93px;
+    top: 492px;
+}
+
+ /* --------------链接-------------- */
+ #link{
+     height: 390px;
+     background-color: #fff;
+ }
+ #link .line{
+     height: 3px;
+ }
+#link i{
+    width: 25%;
+    float: left;
+    height: 3px;
+}
+.line .i1{
+    background-color: #1FC0EF;
+}
+.line .i2{
+    background-color: #F6A544;
+}
+.line .i3{
+    background-color: #8CBE00;
+}
+.line .i4{
+    background-color: #FF6C00;
+}
+.link{
+    height: 386px;
+}
+.link h3{
+    margin-top: 23px;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.link .btn{
+    height: 180px;
+    width: 770px;
+}
+.btn li{
+    float: left;
+}
+.btn a{
+    display: block;
+    margin: 5px 33px 15px 13px;
+}
+
+.link-text{
+    height: 100px;
+    width: 770px;  
+}
+.link-text li{
+    float: left;
+}
+.link-text a{
+    color: black;
+    font-size: 12px;
+    display: block;
+    padding: 6px 10px ;
+}
+.btn-l {
+    width: 115px;
+    height: 150px;
+    margin: 35px 0 0 45px;
+}
+.btn-l li:nth-child(even) a{
+    padding-left: 16px;
+    line-height: 46px;
+    font-size: 12px;
+    color: #000;
+}
+.btn-l li:nth-child(odd) a{
+    font-size: 14px;
+    color: black;
+    line-height: 26px;
+}
+
+
+
+
+
+ /* -------------底部------------- */
+ #footer{
+     height: 108px;
+     background-color: #BABABA;
+ }
+#footer .copyright{
+     text-align: center;
+     padding: 27px 0;
+     line-height: 24px;
+ }
+ .copyright p{
+     font-size: 12px;
+ }
+ .copyright p a{
+    color: #000;
+    padding: 0 10px;
+ }

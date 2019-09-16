@@ -1,0 +1,109 @@
+body,html{
+    height: 100%;
+    
+}
+#football{
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    font-family: "宋体"，"微软雅黑";
+}
+header{
+    height: 1.40625rem;
+    background-color: #0CC440;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header a{
+    text-align: center;
+    line-height: .78125rem;
+    height: .78125rem;
+    width: 1.921875rem;
+    background-color: #3DD066;
+    color: #9AE9B2;
+}
+header a:nth-child(1){
+    border-radius: .390625rem 0 0 .390625rem;
+}
+header a:nth-child(2){
+    border-radius:0 .390625rem  .390625rem 0 ;
+}
+header a:active{
+    background-color: #63D985;
+    color:#fff;
+}
+
+nav{
+    height: 1.109375rem;
+    display: flex;
+    border-bottom: .015625rem solid gray;
+}
+nav a{
+    line-height: 1.109375rem;
+    text-align: center;
+    flex:1;
+    color: #6A6A6A;
+    font-size: .375rem;
+}
+nav a:hover{
+    color: #0EC841;
+    border-bottom: .078125rem solid #0EC841;
+}
+
+
+
+
+main{
+    overflow-y: scroll;
+    flex: 1;
+}
+main article{
+    column-count: 2;
+    justify-content: space-between;
+}
+main img{
+    width: 100%;
+}
+main figure{
+    margin-top: .148125rem;
+    border: .015625rem solid #999;
+    break-inside: avoid;
+}
+main figcaption{
+    font-size: .375rem;
+    line-height: .6875rem;
+}
+
+
+footer{
+    height: 1.40625rem;
+    display: flex;
+}
+footer a{
+    position: relative;
+    justify-content: center;
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    color: #D5D5D5;
+}
+footer a span{
+    height: .34375rem;
+}
+footer a i{
+    font-size: .66875rem !important;
+}
+footer a:nth-child(3) i{
+    position: absolute;
+    top: -0.2125rem;
+    background-color: #fff;
+    font-size: .76875rem !important;
+    border: .03125rem solid #D7D7D7;
+    border-radius: 10rem;
+    width: 1.59375rem;
+    height: 1.59375rem;
+    line-height: 1.59375rem;
+    text-align: center;
+}

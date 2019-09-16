@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <style type="text/css">
+            *{padding: 0;margin: 0;}
+            html,body{
+                height: 100%;
+            }
+            .box{
+                height: 100%;
+                display: flex;
+                flex-flow: column;
+            }
+            ul li{list-style: none;}
+            header,footer{
+                font-size: 30px;
+                line-height: 100px;
+                text-align: center;
+                height: 100px;
+                background-color: #aaa;
+            }
+            main{
+                flex: 1;
+                display: flex;
+            }
+            nav,aside{
+                text-align: center;
+                width: 100px;
+                background-color: pink;
+            }
+
+            nav h2{
+                line-height: 40px;
+            }
+            nav li{
+                line-height: 30px;
+            }
+
+            article{
+                flex: 1;
+                background-color: #fff;
+                display: flex;
+                flex-flow: column;
+            }
+            article h2{
+                text-align: center;
+                line-height: 50px;
+            }
+            article div{
+                overflow-y: scroll;
+                flex:1;
+                background-color: gray;
+                margin: 5px 10px;
+            }
+
+
+
+        </style>
+    </head>
+    <body>
+        <div class="box">
+            <header>header</header>
+            <main>
+                <nav>
+                    <h2>nav</h2>
+                    <ul>
+                        <li>前端辣辣</li>
+                        <li>前端辣辣</li>
+                        <li>前端辣辣</li>
+                        <li>前端辣辣</li>
+                    </ul>
+                </nav>
+                <article>
+                    <div>
+                        <h2>English</h2>
+                        <p>The grounds were covered with dark green grass through which stretched a straight white stone path .On both sides of the path were planted what I believed to be poinsettias.Now the flowers were surrounded by pinkish leaves instead of bright red ones as they should have been.Trimmed with light green edges,the leaves looked delicate and charming.Along the long path I often took a stroll which would take me to a wide terrace,where 1 could watch the enchanting glow of sunset,and occasionally catch the sight of a train pulling and hooting on its way southward.
+                                    On my way hack I would pass by the laboratory and library building whose large French windows had soft curtains let fall to the floor.Just outside the windows kapok flowers glowed red in full bloom.A short way off stood the dining hall,where I found a tree hearing snore-white blossoms so graceful and soft to the touch,Viewed together from the distance,they were as beautiful as a bridal veil.Later I learned that it was a tree called datura which I had so often read about in hooks.</p>
+                    </div>
+                    <div>
+                        <h2>English</h2>
+                        <p>The grounds I would pass by the laboratory and library building whose large French windows had soft curtains let fall to the floor.Just outside the windows kapok flowers glowed red in full bloom.A short way off stood the dining hall,where I found a tree hearing snore-white blossoms so graceful and soft to the touch,Viewed together from the distance,they were as beautiful as a bridal veil.Later I learned that it was a tree called datura which I had so often read about in hooks.</p>
+                    </div>
+                </article>
+                <aside>aside</aside>
+            </main>
+            <footer>footer</footer>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <style type="text/css">
+            *{margin: 0;padding: 0;}
+            .box{
+                margin:100px auto;
+                height: 500px;
+                width: 500px;
+                background-color: #ccc;
+                overflow: hidden;
+                transition:all 2s;
+            }
+            p{
+                transition:all 2s;
+                width: 200px;
+                height: 100px;
+                border-radius: 100px 100px 0 0;
+                background-color: #51A251;
+                margin-left: 150px;
+                margin-top: 20px;
+                position: relative;
+            }
+            p span{
+                transition:all 2s;
+                width: 20px;
+                height: 20px;
+                display:block;
+                border-radius: 10px;
+                background-color: #fff;
+                float: left;
+                margin-left: 58px;
+                margin-top: 50px;
+            }
+            p m{
+                transition:all 2s;
+                display:none;
+                width: 36px;
+                height: 5px;
+                background-color: #fff;
+                position: absolute;
+                left: 80px;
+                bottom: 10px;
+            }
+            p span:nth-child(2){
+                margin-left: 40px;
+            }
+
+            .box:hover span{
+                background-color: orange;
+            }
+            .box:hover m{
+                display:block;
+            }
+            .box:hover{
+                background-color: #111;
+            }
+            .box:hover .body{
+                height: 200px;
+            }
+
+
+
+
+
+            .body{
+                transition:all 3s;
+                float: left;
+                width: 200px;
+                height: 230px;
+                background-color: #51A251;
+                margin-top: 10px;
+                margin-left: 10px;
+                border-radius: 0 0 20px 20px ;
+            }
+            .hand{
+                float: left;
+                width: 30px;
+                height: 180px;
+                margin-top: 10px;
+                background-color: #51A251;
+                border-radius: 10px;
+            }
+            .h1{
+                margin-left: 110px;
+
+            }
+            .h2{
+                margin-left: 10px;
+            }
+            .foot{
+                width: 30px;
+                height: 80px;
+                background-color: #51A251;
+                float: left;
+                border-radius: 0 0 15px 15px ;
+            }
+            .f1{
+                margin-left: 190px;
+            }
+            .f2{
+                margin-left: 60px;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <div class="box">
+            <p>
+                <span></span>
+                <span></span>
+                <m></m>
+            </p>
+            <div class="hand h1"></div>
+            <div class="body"></div>
+            <div class="hand h2"></div>
+
+            <div class="foot f1"></div>
+            <div class="foot f2"></div>
+
+        </div>
+
+    </body>
+</html>

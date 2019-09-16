@@ -1,0 +1,356 @@
+#header{
+    height: 100px;
+    background-color: #fff;
+}
+.header{
+    height: 100px;
+    background: url(../images/phone.png) no-repeat right center;
+}
+.header img{
+    margin-top: 13px;
+}
+
+/* --------------nav-------------- */
+#nav{
+    height: 46px;
+    background-color: #2B78D9;
+}
+.nav{
+    height: 46px;
+}
+.nav li{
+    float: left;
+}
+.nav li a{
+    display: block;
+    color: white;
+    padding: 12px 45px;
+}
+.nav li a:hover{
+    background-color: #145BB5;
+}
+
+/* banner */
+.banner{
+    background: url(../images/banner1.png) no-repeat ;
+    background-size: cover;
+    height: 446px;
+}
+/* main-nav */
+#main-nav{
+    height: 72px;
+    background-color: #EEEEEE;
+    border-bottom: 1px solid #D2D2D2;
+    overflow: hidden;
+}
+.main-nav{
+    height: 56px;
+    margin-top: 12px;
+}
+.main-nav ul,.main-nav li{
+    float: left;
+}
+.main-nav li a{
+    display: block;
+    padding: 18px 0px;
+    margin: 0 23px;
+    color: #3E3E3E;
+
+}
+.main-nav li:hover a{
+    border-bottom: 2px solid #2B78D9;
+    color: #145BB5;
+}
+
+.main-nav .fanhui{
+    float: right;
+    width: 100px;
+    height: 26px;
+    background: url(../images/fanhui.png) no-repeat;
+    padding-left: 35px;
+    margin-top: 16px;
+}
+/* 做网站好处 */
+#haochu{
+    height: 575px;
+    background-color: #EEEEEE;
+    overflow: hidden;
+}
+.haochu{
+    height: 575px;
+}
+.haochu h2{
+    font-size: 34px;
+    color: #2B78D9;
+    text-align: center;
+    line-height: 136px;
+    margin-top: 20px;
+}
+.haochu figure{
+    float: left;
+    padding: 0 10px;
+    width: 240px;
+    text-align: center;
+    margin-right: 80px;
+}
+.haochu figure figcaption{
+    color: #8DB3E3;
+    margin-top: 28px;
+    line-height: 46px;
+}
+.haochu figure p{
+    font-size: 12px;
+    line-height: 32px;
+    color: #595959;
+}
+.haochu figure:nth-of-type(4){
+    margin-right: 0;
+}
+
+/* 合成优势 */
+#youshi{
+    height: 783px;
+    background-color: #fff;
+}
+.youshi{
+    height: 783px;
+    text-align: center;
+    overflow: hidden;
+}
+.youshi h2{
+    color: #F16A05;
+    font-size: 34px;
+    line-height: 76px;
+    margin-top: 36px;
+}
+.youshi span{
+    display: block;
+    color: #616161;
+    margin-bottom: 42px;
+}
+.youshi figure{
+    text-align: center;
+    width: 175px;
+    float: left;
+    margin-right: 70px;
+    position: relative;
+}
+.youshi figure img{
+    position: absolute;
+    top: 10px;left: 40px;
+}
+.youshi figure:hover img{
+    animation: zhendong 0.3s 3;
+}
+
+
+
+@keyframes zhendong{
+    50%{
+        top:0;
+    }
+    90%{
+        top: 15px;
+    }
+}
+
+
+
+.youshi figure figcaption{
+    margin-top: 115px;
+    font-size: 20px;
+    line-height: 48px;
+    color: black;
+}
+.youshi figure p{
+    font-size: 12px;
+    line-height: 32px;
+    color: #595959;
+}
+.youshi figure:nth-of-type(5){
+    margin-right: 0;
+}
+.youshi figure:nth-of-type(1){
+    margin-left: 20px;
+}
+
+ /* 服务范围 */
+
+#fuwu{
+    height: 747px;
+    background-color: #EEEEEE;
+}
+.fuwu{
+    height: 747px;
+    text-align: center;
+}
+.fuwu h2{
+    line-height: 144px;
+    font-size: 32px;
+    color: #2B78D9;
+}
+.fuwu .fuwu-icon{
+    float: left;
+    margin: 0 320px 280px 0;
+    position: relative; 
+}
+.fuwu .fuwu-icon img{
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+.fuwu .fuwu-icon:hover {
+    animation: zhendong 0.3s linear 3;
+}
+
+
+.fuwu .fuwu-icon:nth-of-type(4),
+.fuwu .fuwu-icon:nth-of-type(8){
+    margin-right: 0;
+}
+
+/* 建站流程 */
+#liucheng{
+    height: 400px;
+    background-color: #fff;
+}
+.liucheng{
+    height: 400px;
+    overflow: hidden;
+}
+.liucheng h2{
+    text-align: center;
+    line-height: 120px;
+    margin-top: 15px;
+    color: #F16A05;
+    font-size: 32px;
+}
+#lc{
+    float: left;
+}
+.liucheng .lc-block{
+    width: 146px;
+    float: left;
+}
+.lc-block .lc-icon{
+    width: 146px;
+    height: 146px;
+    background-color: #469EEB;
+    border-radius: 50%;
+    position: relative;
+}
+
+.lc-icon:hover img{
+    transform: rotate(360deg);
+}
+
+
+.lc-block .lc-icon img{
+    transition: all 2s;
+    position: absolute;
+    top: 40px;
+    left: 30%;
+}
+.lc-block p{
+    margin-top: 30px;
+    line-height: 25px;
+    text-align: center;
+    font-size: 12px;
+    color: #595959;
+}
+#lc>img{
+    float: left;
+    margin-top: 60px;
+}
+
+/* 底部 */
+#link{
+    height: 230px;
+    background-color: #EEEEEE;
+}
+.link{
+    height: 230px;
+    overflow: hidden;
+}
+.link figure{
+    margin-top: 23px;
+    float: left;
+}
+.link figure figcaption{
+    color:#2B78D9;
+    line-height: 42px;
+    text-align: center;
+}
+.link-m {
+    float: left;
+    margin-left: 100px;
+    margin-top: 15px;
+}
+.link-m  dl{
+    margin-right: 48px;
+    float: left;
+}
+.link-m dd{
+    font-size: 18px;
+    line-height: 38px;
+    border-bottom: 1px solid #595959;
+    margin-bottom: 14px;
+}
+.link-m dt{
+    line-height: 28px;
+    font-size: 14px;
+    color: #616161;
+}
+.link-r{
+    margin-top: 12px;
+    float: right;
+    height: 170px;
+    width: 300px;
+}
+.link-r .lk-box{
+    border-top: 1px solid gray;
+    height: 90px;
+    margin-top: 10px;
+
+}
+.link-r .lk-box h3{
+    line-height: 46px;
+    font-size: 20px;
+    color: #0169DB;
+}
+.link-r .lk-box li{
+    float: left;
+}
+.link-r .lk-box  a{
+    font-size: 14px;
+    color: #3E3E3E;
+    padding: 0 7px;
+    line-height: 24px;;
+}
+/* footer */
+#foot{
+    height: 46px;
+    background-color: #2B78D9;
+}
+.foot{
+    height: 46px;
+}
+.foot li{
+    float: left;
+}
+.foot .u1 a{
+    color: white;
+    font-size: 12px;
+    line-height: 46px;
+    padding-right: 10px;
+}
+.foot .u2 a{
+    color: white;
+    font-size: 12px;
+    line-height: 46px;
+    padding: 4px;
+}
+.foot span{
+    color: white;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        /* *{margin: 0;padding: 0;} */
+        select{margin: 0;padding: 0;}
+        form{
+            margin: 20px auto;
+            width: 420px;
+            height: 556px;
+            background-color: #eee;
+        }
+        h4 {
+            margin-left: 300px;
+        }
+        label{
+            display: inline-block;
+            height: 21px;
+            width: 50px;
+            text-align: right;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="">
+    <fieldset>
+    <h4>*号为必填</h4>
+        <fieldset>
+            <legend>个人信息</legend>
+            <label for="q1">姓名*</label><input id="q1" type="text"><br>
+            <label for="q2">地址*</label><input id="q2" type="text"><br>
+            <label>出生*</label>
+                <select name="">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+                <select name="" id="">
+                    <option value="">Jan</option>
+                    <option value="">Feb</option>
+                    <option value="">Otb</option>
+                </select>
+                <select name="" id="">
+                    <option value="">1998</option>
+                    <option value="">1997</option>
+                    <option value="">1997</option>
+                </select>
+            <br>
+            <label for="q4">性别*</label>
+            <select name="" id="q4">
+                <option value="">男</option>
+                <option value="">女</option>
+            </select>
+
+        </fieldset>
+        <fieldset>
+            <legend>其他信息</legend>
+            <p>你喜欢这表单吗？*</p>
+            <input type="radio" name="a1" >喜欢
+            <input type="radio" name="a1">不喜欢
+
+            <p>你喜欢什么运动？*</p>
+            <input type="checkbox">足球
+            <input type="checkbox">篮羽
+            <input type="checkbox">毛球球
+
+            <p>写下你的建议？*</p>
+            <textarea name="" id="" cols="30" rows="5"></textarea><br>
+            <input type="submit" value="提交个人信息">
+        </fieldset>
+    </fieldset>
+    </form>
+</body>
+
+</html>

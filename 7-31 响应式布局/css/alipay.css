@@ -1,0 +1,24 @@
+html,body{
+    height: 100%;
+}
+#box{
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+}
+header{
+    height: 4.133333rem;
+    background-color: #3F454F;
+}
+.head-t{
+    height: 1rem;
+    display: flex;
+}
+
+main{
+    flex:1;
+}
+footer{
+    height: 1.333333rem;
+    border-top: .013333rem solid #E6E6E6;
+}

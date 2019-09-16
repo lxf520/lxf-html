@@ -1,0 +1,311 @@
+/* 
+* @Author: lin
+* @Date:   2019-07-11 09:44:18
+* @Last Modified by:   Marte
+* @Last Modified time: 2019-07-16 20:42:50
+*/
+*{
+    margin:0;
+    padding: 0;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;    
+}
+body{
+    width:1000px;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    height: 100px;
+}
+header img{
+    float: left;
+    margin:30px 0 0 20px;
+}
+.logo-r{
+    float: right;
+    width: 240px;
+    height: 60px;
+    padding-top:40px;
+}
+.logo-r input:nth-child(1){
+    float: left;
+    display:block;
+    width: 160px;
+    height: 28px;
+    border:1px solid #e5e5e5;
+    border-right:0;
+    padding-left: 20px;
+}
+.logo-r input:nth-child(2){
+    float: left;
+    display:block;
+    width: 32px;
+    height: 28px;
+    border:1px solid #e5e5e5;
+    border-left:0;
+    background:url("../img/logo_sc.png") no-repeat center center #f0f0f0;
+    /*背景图片可以插入多个写法： url("../images/logo_sc.png"),url("../images/logo.png")*/
+}
+/*header input{
+    float:right;
+    background-color: #F1F1F1;
+    color:#838383;
+    margin:40px 20px 0 0;
+}*/
+nav{
+    height: 60px;
+    background-color: #303030;
+}
+nav ul{
+    margin-left: 20px;
+}
+nav ul li{
+    float:left;
+    width: 120px;
+    border-right: 1px solid #494949;
+    line-height: 60px;
+    text-align: center;
+}
+nav li a{
+    color:white;
+    /*padding:22px 30px;    */
+}
+nav li:hover {
+    background: orange;
+}
+
+
+.banner img{
+    height:460px;
+    width: 1000px;
+}
+
+/*-----------新闻资讯-----------*/
+.container_t{
+    overflow: hidden;
+}
+.container_t .news{
+    width: 500px;
+    height: 240px;
+    float:left;
+}
+.container_t .news p{
+    padding:30px 0 20px 20px;
+    font-size: 14px;
+}
+.container_t .news .lalala{
+    padding-left: 35px;
+
+}
+.container_t .news li{
+    list-style-type:square ;
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+.container_t .news a{
+    color:#505050;
+
+}
+.container_t .lalala span{
+    float:right;
+    color:#898989;
+    padding-right: 25px;
+}
+
+/*------------卧龙介绍------------*/
+.introduce{
+    float:left;
+    width: 250px;
+    height: 240px;
+    background-color: #F1F1F1;
+}
+.introduce h4{
+    padding:30px 0 30px 25px;
+    font-size: 14px;
+
+}
+.introduce h5{
+    font-size: 13px;
+    padding-left: 25px;
+    font-weight: 100;
+}
+.introduce p{
+    color:#969696;
+    font-size: 13px;
+    padding-left: 25px;
+    transition: all 3s;
+}
+.introduce p:hover{
+    letter-spacing: 20px;
+}
+
+/*-----------人才招聘-----------*/
+.personal {
+    float:left;
+    width: 250px;
+    height: 240px;
+    background-color: #FBFBFB;
+}
+.personal h4{
+    padding:30px 0 30px 25px;
+    font-size: 14px;
+}
+.personal p{
+    font-size: 13px;
+    padding-left: 25px;
+}
+.personal .more{
+    width: 65px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    background-color: #B1B1B1;
+    border-radius: 10px;
+    color:white;
+    margin-top: 65px;
+    margin-left: 25px;
+    float:left;
+}
+.personal img{
+    float:right;
+    margin-top: 30px;
+    margin-right: 15px;
+}
+
+/*--------------卧龙市场--------------*/
+
+.container_b{
+    width: 1000px;
+    height: 300px;
+}
+.container_b h3{
+    padding: 28px 0 0 20px;
+}
+.market_img .box{
+    float:left;
+    width:25%;
+    height: 255px;
+}
+.market_img img{
+    padding: 15px;
+}
+.market_img p{
+    margin-left: 20px;
+    width:80%;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+
+/*----------公司介绍----------*/
+.bottom{
+    padding-top: 20px;
+    height: 230px;
+    width: 1000px;
+    background: #E5E5E5;
+
+}
+.w{
+    height: 230px;
+    float: left;
+
+}
+.bottom .produceCenter{
+    width:50%;
+}
+.produceCenter p{
+    height: 34px;
+    text-align: left;
+    line-height: 34px;
+    width: 450px;
+    margin-left: 15px;
+    color:#7C7C7C;
+    border-bottom: 1px solid #7C7C7C;
+}
+.produceCenter ul{
+    margin-top: 15px;
+    float: left;
+}
+.produceCenter ul li{
+    font-size: 12px;
+    text-align: left;
+    padding:0 60px 0 15px;
+}
+.produceCenter a{
+    color:#7C7C7C;
+    line-height: 26px;
+    height: 26px;
+}
+
+.bottom .technology{
+    width:20%;
+}
+.technology p{
+    height: 34px;
+    text-align: left;
+    line-height: 34px;
+    width: 150px;
+    margin-left: 15px;
+    color:#7C7C7C;
+    border-bottom: 1px solid #7C7C7C;
+}
+.technology ul{
+    margin-top: 15px;
+    float: left;
+}
+.technology ul li{
+    font-size: 12px;
+    text-align: left;
+    padding:0 60px 0 15px;
+}
+.technology a{
+    color:#7C7C7C;
+    line-height: 26px;
+    height: 26px;
+}
+
+
+.bottom .network{
+    width:30%;
+}
+.network p{
+    height: 34px;
+    text-align: left;
+    line-height: 34px;
+    width: 260px;
+    margin-left: 15px;
+    color:#7C7C7C;
+    border-bottom: 1px solid #7C7C7C;
+}
+.network img{
+    margin: 15px 0 0 35px;
+}
+
+
+footer{
+    height: 80px;
+}
+footer ul{
+    padding-left: 20px;
+}
+footer li{
+    float: left;
+}
+footer a{
+    line-height: 62px;
+    font-size: 12px;
+    text-align: center;
+    color:#9A9A9A;
+}
+footer .font{
+    float: right;
+    line-height: 62px;
+    font-size: 12px;
+    text-align: center;
+    color:#9A9A9A;
+}

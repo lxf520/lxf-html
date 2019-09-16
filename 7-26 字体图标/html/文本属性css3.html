@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        p{
+            font-size: 50px;
+            text-shadow: 5px 5px 5px #666,10px 10px 10px rgb(25, 23, 141),20px 20px 20px rgb(192, 182, 36);
+        }
+        .d1{
+            border: 100px solid gray;
+            width: 400px;
+            height: 220px;
+            background: url(../images/1.jpg) no-repeat ;
+            background-size:contain;
+            padding: 20px;
+            background-origin: padding-box;
+            margin: 100px auto;
+            box-shadow: 5px 5px 75px 5px #acb;
+            border-image: url(../images/gua.png) ;
+        }
+        .color{
+            border-radius: 500px;
+            margin: 100px auto;
+            /* background: linear-gradient(10deg, red, yellow,green ); */
+            background: repeating-radial-gradient(black 5%,white 10%,red 16%);
+            height: 500px;
+            width: 500px;
+        }
+        .img{
+            margin: 100px auto;
+            width: 500px;
+            height: 300px;
+            background: url(../images/2.jpg) no-repeat;
+            background-size: contain;
+            transform: translate(20px,30px);
+            transition: all 2s;
+        }
+        .img:hover{
+            transform: rotate(7deg);
+            transform: scale(2,2);
+            transform: skew(24deg,25deg);
+        }
+    </style>
+</head>
+<body>
+    <p>千秋万载一统江湖</p>
+    <div class="img"> </div>
+
+    <div class="d1"></div>
+    <div class="color"></div>
+</body>
+</html>

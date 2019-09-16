@@ -1,0 +1,224 @@
+body,html{
+    height: 100%;
+}
+#box{
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+}
+header{
+    height: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+header figure{
+    display: flex;
+}
+header .icon-zhaoshang{
+    width: .716667rem;
+    font-size: .666667rem;
+    color: #B1120D;
+
+}
+header img{
+    width: 2rem;
+    height: .696667rem;
+}
+header .icon-wode{
+    width: .666667rem;
+    height: .666667rem;
+    line-height:.666667rem ;
+    text-align: center;
+    border-radius: 50%;
+    border: .013333rem solid blue;
+    color: blue;
+    position: absolute;
+    right: .366667rem;
+}
+header span{
+    position: absolute;
+    font-size: .266667rem;
+    width: .586667rem;
+    height: .426667rem;
+    color: white;
+    background-color: #FF0000;
+    border-radius: 40%;
+    right: .066667rem;
+    top: .04rem;
+    text-align: center;
+}
+
+
+.main{
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+}
+.banner img{
+    width: 100%;
+}
+.main section{
+    height: 5.253333rem;
+    column-count: 4;
+    display: flex;
+    flex-flow: wrap;
+
+}
+ .main section a{
+    height: 2.333333rem;
+    justify-content: center;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    border: .010333rem solid #DFDFDF;
+} 
+.main a i{
+    display: block;
+    font-size: .98rem !important;
+    color: rgb(13, 43, 177);
+}
+.main section a:nth-child(1),
+.main section a:nth-child(2),
+.main section a:nth-child(3),
+.main section a:nth-child(4){
+    border-left: 0;
+}
+.main section a:nth-child(5),
+.main section a:nth-child(6),
+.main section a:nth-child(7),
+.main section a:nth-child(8){
+    border-left: 0;
+    border-top: 0;
+}
+.main section a:nth-child(4),
+.main section a:nth-child(8){
+    border-right: 0;
+}
+.main a figcaption{
+    font-size: .293333rem !important;
+    color: #aaa;
+}
+.main .block{
+    width: 100%;
+    height: .586667rem;
+    background-color: #E9E9E9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main .block i{
+    width: .186667rem;
+    height: .186667rem;
+    background-color: #B8B8B8;
+    border-radius: 0.5rem;
+    margin: 0 .133333rem;
+}
+
+/* ---------------article--------------- */
+article .top{
+    height: 1.066667rem;
+    border-bottom: .013333rem solid #DFDFDF;
+    display: flex;
+    justify-content: space-between;
+}
+article .top span{
+    font-size: .373333rem;
+    padding-left: .346667rem;
+    border-left: .053333rem solid #F85255;
+    color:#F85255;
+    line-height: 1.066667rem;
+}
+article .top a{
+    color:#F85255;
+    line-height: 1.066667rem;
+    padding-right: .346667rem;
+}
+article .content{
+    padding:0 .4rem .4rem .4rem;
+}
+
+.ct .ctl{
+    height: 3.12rem;
+    width: 2.613333rem;
+    text-align: center;
+}
+.ct .ctl p{
+    font-size: .506667rem;
+    padding: .773333rem 0 .1rem;
+    color: #E63236;
+}
+.ct .ctl p b{
+    font-size: .706667rem;
+    color: #E63236;
+}
+.ct .ctl span{
+    color: #F19092;
+}
+
+.ct .ctc{
+    height: 3.12rem;
+    width: 5.933333rem;
+    padding: .4rem;
+
+}
+.ct .ctc p:nth-child(1){
+    font-size: .4rem;
+    color: #565656;
+}
+.ct .ctc p:nth-child(2) span{
+    font-size: .293333rem;
+    color: white;
+    display: inline-block;
+    height: .72rem;
+    line-height: .72rem;
+    width: 2.24rem;
+    background-color: #F85255;
+    border-radius: 2rem;
+    text-align: center;
+    margin: .24rem .2rem .24rem 0;
+}
+.ct .yjt{
+    margin-top: 1.066667rem;
+}
+
+.content .cb{
+    width: 100%;
+    height: 1.04rem;
+    background-color: #F5F5F5;
+}
+.cb p{
+    line-height: 1.04rem;
+    font-size: .266667rem;
+    color: rgb(184, 181, 181);
+    padding-left: .293333rem;;
+}
+
+.gray{
+    height: .373333rem;
+    background-color: #EAEAEA;
+    margin-top: 4.116667rem;
+}
+
+footer{
+    height: 1.333333rem;
+    border-top: .013333rem solid #aaa;
+    display: flex;
+}
+footer a{
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    color: #C3C3C3;
+}
+footer a i{
+    font-size: .613333rem !important;
+}
+footer a:hover{
+    color: blue;
+
+}
