@@ -1,5 +1,5 @@
 
-¸ãÒ»¸öĞÂµÄ²Ö¿â
+æä¸€ä¸ªæ–°çš„ä»“åº“
 echo "# lxf-" >> README.md
 git init
 git add README.md
@@ -7,8 +7,7 @@ git commit -m "first commit"
 git remote add origin https://github.com/lxf520/lxf-.git
 git push -u origin master
 
-¸ãÒ»¸öÏÖÓĞµÄ´«ÉÏÈ¥
-¡­or push an existing repository from the command line
+æä¸€ä¸ªç°æœ‰çš„ä¼ ä¸Šå»
 
 git remote add origin https://github.com/lxf520/lxf-.git
 git push -u origin master
