@@ -1,0 +1,14 @@
+
+搞一个新的仓库
+echo "# lxf-" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/lxf520/lxf-.git
+git push -u origin master
+
+搞一个现有的传上去
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/lxf520/lxf-.git
+git push -u origin master
